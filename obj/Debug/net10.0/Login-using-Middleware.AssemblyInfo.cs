@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Login-using-Middleware")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50e8536a1544a3151b4c1aa7c24599419bb37c3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Login-using-Middleware")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Login-using-Middleware")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
