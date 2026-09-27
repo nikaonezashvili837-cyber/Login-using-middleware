@@ -7,6 +7,12 @@ public class LoginVerification(RequestDelegate next)
         string? Password = context.Request.Query["password"];
         string? EmailToMatch = "admin@example.com";
         string? PasswordToMatch = "admin1234";
+        if (Email == null && Password == null)
+        {
+            context.Response.StatusCode = 400;
+            await context.Response.WriteAsync(@"Invalid input for 'email' Invalid input for 'password");
+            return;
+        }
         if (Email != EmailToMatch || PasswordToMatch != Password)
         {
             context.Response.StatusCode = 400;
